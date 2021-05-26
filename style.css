@@ -1,0 +1,49 @@
+body{
+background-image: url("chance.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float:left ;
+}
+
+a:link{
+text-decoration: none;
+}
+
+li a{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+li a.nav-brand{
+font-size: 25px;
+font-weight: 700;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-right: 0px;
+}
+
+#navbar{
+   margin-bottom: 2px;
+    width: 100%;
+    height: 100px;
+   /* background-color: rgb(224, 120, 82);*/
+   
+}
+
+/*#body-image{
+   margin: 0px;
+   background-image: url("home.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 550px;
+}*/
